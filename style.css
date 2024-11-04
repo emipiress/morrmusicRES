@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/destaques.css");
+@import url("styles/topics.css");
+@import url("styles/contact.css");
+@import url("styles/ftr.css");
+
+:root {
+    --back--color: #070707;
+    --branco: #FFFFFF;
+    --vermelho: #af0d0d;
+    --vermelho-degrade: linear-gradient(97.54deg, #af0d0d 35.49%, #ff3535 165.37%);
+    --fonte-main: "Grenze";
+    --cinza: #222221;
+    --fonte-sec: "Grenze Gotisch";
+    --preto: #000000;
+    --c2: #313030;
+    --c3: #5B5B5B;
+}
+
+body {
+    background-color: var(--back--color);
+    font-family: var(--fonte-main);
+    font-size: 16px;
+    font-weight: 400;
+}
